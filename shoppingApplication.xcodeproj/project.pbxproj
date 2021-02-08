@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37EBA6E94CB703B4A553C080 /* Pods_shoppingApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91530D084F6EC4D1BCD81740 /* Pods_shoppingApplication.framework */; };
+		6605BD5025D189050023EFA9 /* RopaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6605BD4F25D189050023EFA9 /* RopaSans-Regular.ttf */; };
+		66189C8B25CB540300672855 /* ProductPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66189C8A25CB540300672855 /* ProductPage.swift */; };
+		66189C9A25CC9D0900672855 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66189C9925CC9D0900672855 /* ProductCell.swift */; };
+		66189CA625CCA60800672855 /* ProductDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66189CA525CCA60800672855 /* ProductDetail.swift */; };
+		66189CC225CD916A00672855 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66189CC125CD916900672855 /* Order.swift */; };
+		66189CDA25CE022C00672855 /* MyOrdersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66189CD925CE022C00672855 /* MyOrdersCell.swift */; };
+		66189CE525CE066E00672855 /* OrderList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66189CE425CE066E00672855 /* OrderList.swift */; };
+		66189CF225CEE15E00672855 /* MyOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66189CF125CEE15E00672855 /* MyOrders.swift */; };
+		66189CFF25CF2CBC00672855 /* LazyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66189CFE25CF2CBA00672855 /* LazyImageView.swift */; };
+		6661FA7025CAF52000F14161 /* UserSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6661FA6F25CAF52000F14161 /* UserSignUp.swift */; };
 		667FF96725C7FB3B00CFA8C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FF96625C7FB3B00CFA8C5 /* AppDelegate.swift */; };
 		667FF96925C7FB3B00CFA8C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FF96825C7FB3B00CFA8C5 /* SceneDelegate.swift */; };
-		667FF96B25C7FB3B00CFA8C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FF96A25C7FB3B00CFA8C5 /* ViewController.swift */; };
 		667FF96E25C7FB3B00CFA8C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667FF96C25C7FB3B00CFA8C5 /* Main.storyboard */; };
 		667FF97025C7FB3D00CFA8C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667FF96F25C7FB3D00CFA8C5 /* Assets.xcassets */; };
 		667FF97325C7FB3D00CFA8C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667FF97125C7FB3D00CFA8C5 /* LaunchScreen.storyboard */; };
+		667FF98225C852A800CFA8C5 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FF98125C852A800CFA8C5 /* SignIn.swift */; };
+		667FF98625C852C100CFA8C5 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FF98525C852C100CFA8C5 /* SignUp.swift */; };
+		667FF9A425C87F4400CFA8C5 /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FF9A325C87F4400CFA8C5 /* UserLogin.swift */; };
+		667FF9E725C9EED500CFA8C5 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667FF9E625C9EED500CFA8C5 /* Products.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01A2FA346D173B9F110D338E /* Pods-shoppingApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shoppingApplication.release.xcconfig"; path = "Target Support Files/Pods-shoppingApplication/Pods-shoppingApplication.release.xcconfig"; sourceTree = "<group>"; };
+		6605BD4F25D189050023EFA9 /* RopaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RopaSans-Regular.ttf"; sourceTree = "<group>"; };
+		66189C8A25CB540300672855 /* ProductPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPage.swift; sourceTree = "<group>"; };
+		66189C9925CC9D0900672855 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		66189CA525CCA60800672855 /* ProductDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetail.swift; sourceTree = "<group>"; };
+		66189CC125CD916900672855 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		66189CD925CE022C00672855 /* MyOrdersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersCell.swift; sourceTree = "<group>"; };
+		66189CE425CE066E00672855 /* OrderList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderList.swift; sourceTree = "<group>"; };
+		66189CF125CEE15E00672855 /* MyOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrders.swift; sourceTree = "<group>"; };
+		66189CFE25CF2CBA00672855 /* LazyImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyImageView.swift; sourceTree = "<group>"; };
+		6661FA6F25CAF52000F14161 /* UserSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSignUp.swift; sourceTree = "<group>"; };
 		667FF96325C7FB3B00CFA8C5 /* shoppingApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shoppingApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		667FF96625C7FB3B00CFA8C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		667FF96825C7FB3B00CFA8C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		667FF96A25C7FB3B00CFA8C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		667FF96D25C7FB3B00CFA8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		667FF96F25C7FB3D00CFA8C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667FF97225C7FB3D00CFA8C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		667FF97425C7FB3D00CFA8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667FF98125C852A800CFA8C5 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		667FF98525C852C100CFA8C5 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		667FF9A325C87F4400CFA8C5 /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		667FF9E625C9EED500CFA8C5 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		8FCCC61FDCD199CA687EB993 /* Pods-shoppingApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shoppingApplication.debug.xcconfig"; path = "Target Support Files/Pods-shoppingApplication/Pods-shoppingApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		91530D084F6EC4D1BCD81740 /* Pods_shoppingApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shoppingApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37EBA6E94CB703B4A553C080 /* Pods_shoppingApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15E5D1887987E465BF667E1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91530D084F6EC4D1BCD81740 /* Pods_shoppingApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6605BD4E25D188BE0023EFA9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6605BD4F25D189050023EFA9 /* RopaSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		667FF95A25C7FB3A00CFA8C5 = {
 			isa = PBXGroup;
 			children = (
 				667FF96525C7FB3B00CFA8C5 /* shoppingApplication */,
 				667FF96425C7FB3B00CFA8C5 /* Products */,
+				C7445040BDD9215BDB6DE07D /* Pods */,
+				15E5D1887987E465BF667E1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +105,53 @@
 		667FF96525C7FB3B00CFA8C5 /* shoppingApplication */ = {
 			isa = PBXGroup;
 			children = (
+				667FF9A225C87F3400CFA8C5 /* Model */,
+				667FF97B25C7FD1B00CFA8C5 /* Controller */,
 				667FF96625C7FB3B00CFA8C5 /* AppDelegate.swift */,
 				667FF96825C7FB3B00CFA8C5 /* SceneDelegate.swift */,
-				667FF96A25C7FB3B00CFA8C5 /* ViewController.swift */,
 				667FF96C25C7FB3B00CFA8C5 /* Main.storyboard */,
 				667FF96F25C7FB3D00CFA8C5 /* Assets.xcassets */,
 				667FF97125C7FB3D00CFA8C5 /* LaunchScreen.storyboard */,
 				667FF97425C7FB3D00CFA8C5 /* Info.plist */,
+				6605BD4E25D188BE0023EFA9 /* Fonts */,
 			);
 			path = shoppingApplication;
+			sourceTree = "<group>";
+		};
+		667FF97B25C7FD1B00CFA8C5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				667FF98125C852A800CFA8C5 /* SignIn.swift */,
+				667FF98525C852C100CFA8C5 /* SignUp.swift */,
+				66189C8A25CB540300672855 /* ProductPage.swift */,
+				66189C9925CC9D0900672855 /* ProductCell.swift */,
+				66189CA525CCA60800672855 /* ProductDetail.swift */,
+				66189CD925CE022C00672855 /* MyOrdersCell.swift */,
+				66189CF125CEE15E00672855 /* MyOrders.swift */,
+				66189CFE25CF2CBA00672855 /* LazyImageView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		667FF9A225C87F3400CFA8C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				667FF9A325C87F4400CFA8C5 /* UserLogin.swift */,
+				6661FA6F25CAF52000F14161 /* UserSignUp.swift */,
+				667FF9E625C9EED500CFA8C5 /* Products.swift */,
+				66189CC125CD916900672855 /* Order.swift */,
+				66189CE425CE066E00672855 /* OrderList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C7445040BDD9215BDB6DE07D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FCCC61FDCD199CA687EB993 /* Pods-shoppingApplication.debug.xcconfig */,
+				01A2FA346D173B9F110D338E /* Pods-shoppingApplication.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 667FF97725C7FB3D00CFA8C5 /* Build configuration list for PBXNativeTarget "shoppingApplication" */;
 			buildPhases = (
+				112268D0FDF5F80A1F6ED4C5 /* [CP] Check Pods Manifest.lock */,
 				667FF95F25C7FB3A00CFA8C5 /* Sources */,
 				667FF96025C7FB3A00CFA8C5 /* Frameworks */,
 				667FF96125C7FB3A00CFA8C5 /* Resources */,
+				A7C743B91F8A5384F70A8ADE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +215,75 @@
 			files = (
 				667FF97325C7FB3D00CFA8C5 /* LaunchScreen.storyboard in Resources */,
 				667FF97025C7FB3D00CFA8C5 /* Assets.xcassets in Resources */,
+				6605BD5025D189050023EFA9 /* RopaSans-Regular.ttf in Resources */,
 				667FF96E25C7FB3B00CFA8C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		112268D0FDF5F80A1F6ED4C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shoppingApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7C743B91F8A5384F70A8ADE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shoppingApplication/Pods-shoppingApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shoppingApplication/Pods-shoppingApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shoppingApplication/Pods-shoppingApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		667FF95F25C7FB3A00CFA8C5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				667FF96B25C7FB3B00CFA8C5 /* ViewController.swift in Sources */,
+				66189C8B25CB540300672855 /* ProductPage.swift in Sources */,
+				667FF9E725C9EED500CFA8C5 /* Products.swift in Sources */,
+				6661FA7025CAF52000F14161 /* UserSignUp.swift in Sources */,
+				66189CFF25CF2CBC00672855 /* LazyImageView.swift in Sources */,
 				667FF96725C7FB3B00CFA8C5 /* AppDelegate.swift in Sources */,
+				66189CF225CEE15E00672855 /* MyOrders.swift in Sources */,
+				66189CC225CD916A00672855 /* Order.swift in Sources */,
 				667FF96925C7FB3B00CFA8C5 /* SceneDelegate.swift in Sources */,
+				667FF98225C852A800CFA8C5 /* SignIn.swift in Sources */,
+				66189CE525CE066E00672855 /* OrderList.swift in Sources */,
+				66189CA625CCA60800672855 /* ProductDetail.swift in Sources */,
+				66189CDA25CE022C00672855 /* MyOrdersCell.swift in Sources */,
+				66189C9A25CC9D0900672855 /* ProductCell.swift in Sources */,
+				667FF9A425C87F4400CFA8C5 /* UserLogin.swift in Sources */,
+				667FF98625C852C100CFA8C5 /* SignUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +427,7 @@
 		};
 		667FF97825C7FB3D00CFA8C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCCC61FDCD199CA687EB993 /* Pods-shoppingApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +447,7 @@
 		};
 		667FF97925C7FB3D00CFA8C5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A2FA346D173B9F110D338E /* Pods-shoppingApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
